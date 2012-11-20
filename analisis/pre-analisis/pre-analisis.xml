@@ -439,30 +439,6 @@ Ninguno</rem:comments>
 permitir al cliente actualizar sus datos de estatura y peso desde el dispositivo movil.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
- oid = "FRQ-0004">
-<rem:name>
-ingreso de datos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>12</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-permitir al usuario ingresar sus datos actuales de peso y estatura para asi calcular el IMC.</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement
  oid = "FRQ-0005">
 <rem:name>
 resultados</rem:name>
@@ -620,6 +596,12 @@ Ninguno</rem:comments>
 <rem:specificData oid = "DAT-0004">
 <rem:description>
 ingresar peso<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0005">
+<rem:description>
+sexo<br/></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -844,6 +826,40 @@ None</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>5 </rem:number>
 <rem:useCase
+ oid = "UC-0002">
+<rem:name>
+iniciar sesion</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+la activacion del inicio de sesion se da cuando se abre el programa</rem:triggeringEvent>
+<rem:precondition>
+tener aplicacion instalada</rem:precondition>
+<rem:postcondition>
+desear consultar masa muscular</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
  oid = "UC-0001">
 <rem:name>
 crear perfil </rem:name>
@@ -863,9 +879,7 @@ esta opcion es cuando el usuario se quiere iniciar en la aplicacion</rem:comment
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0002"/>
 <rem:status value = "STV-0003"/>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
  el sistema abrira una ventana en cual le pedira al usuario que ingrese los datos personales, como nombre apellido, talla en centimetros, peso, en kilogramos, </rem:triggeringEvent>
 <rem:precondition>
@@ -873,7 +887,112 @@ no tener este ususario activo</rem:precondition>
 <rem:postcondition>
 para poder inciar la aplicacion<br/></rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0003">
+<rem:name>
+actualizar perfil</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el sistema debera permitir al usuario actualizar o modificar los datos ingresados a la aplicacion</rem:triggeringEvent>
+<rem:precondition>
+tener perfil creado</rem:precondition>
+<rem:postcondition>
+nuevos resultados de valorizacion</rem:postcondition>
+<rem:frequency>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0004">
+<rem:name>
+resultados</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el sistema debera permitir que el usuario conozca su masa muscular y adiccionalmente hacer un comparativo con el estado ideal.</rem:triggeringEvent>
+<rem:precondition>
+se necesita conocer peso y talla y sexo</rem:precondition>
+<rem:postcondition>
+se necesita hacer un comparativo del peso ideal</rem:postcondition>
+<rem:frequency>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0005">
+<rem:name>
+valorizacion</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el sistema debera permitir al usuario por medio de unos tips seguir alguna dieta o recomendar una rutina de ejercicios para mejorar su salud.</rem:triggeringEvent>
+<rem:precondition>
+se debe tener el comparativo del reultado del imc y el cuadro para una talla ideal</rem:precondition>
+<rem:postcondition>
+seguir recomendacion que sugiera la aplicacion</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
 </rem:frequency>
 </rem:useCase>
 </rem:section>
@@ -1130,28 +1249,10 @@ Hour:minutes:seconds</rem:description>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+<![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
@@ -1160,10 +1261,28 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">

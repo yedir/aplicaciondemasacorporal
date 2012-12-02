@@ -751,8 +751,332 @@
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0006] valorizacion con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0005] valorizacion con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0003] datos de peso con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Deleted object [ACT-0001]  with 0 children and 1 changes]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Deleted object [SEC-0016]  with 0 children and 1 changes]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Deleted object [GRF-0001]  with 0 children and 1 changes]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Deleted object [MET-0001]  with 0 children and 1 changes]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Deleted object [SEC-0016]  with 0 children and 1 changes]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -760,8 +1084,8 @@
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -769,8 +1093,8 @@
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -778,8 +1102,8 @@
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -787,8 +1111,8 @@
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -796,8 +1120,8 @@
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -805,8 +1129,8 @@
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -814,8 +1138,8 @@
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -823,8 +1147,8 @@
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -832,8 +1156,8 @@
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -841,8 +1165,8 @@
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>
@@ -850,44 +1174,8 @@
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Document saved]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Document saved]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Document saved]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Document saved]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2012</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Document saved]]></rem:description>
 </rem:change>

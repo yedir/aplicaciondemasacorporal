@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BaseDatos">
+  <DataContextMoniker Name="/BaseDatosDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3e1b402b-fa2b-414e-8102-7f8851dcbc51" absoluteBounds="2.5, 1.125, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/BaseDatosDataContext/Perfil" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dff2a532-2008-4d94-8e82-fc7489c9550b" absoluteBounds="2.515, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5134c579-0468-4e94-ad09-3a602505d3b5" absoluteBounds="5.75, 1.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/BaseDatosDataContext/Registros" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df62e4cc-144e-4f53-a6dc-1463977b9342" absoluteBounds="5.765, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.75 : 1.90949625651042); (4.5 : 1.90949625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/BaseDatosDataContext/Registros/Registros_Perfil" />
+      <nodes>
+        <classShapeMoniker Id="5134c579-0468-4e94-ad09-3a602505d3b5" />
+        <classShapeMoniker Id="3e1b402b-fa2b-414e-8102-7f8851dcbc51" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

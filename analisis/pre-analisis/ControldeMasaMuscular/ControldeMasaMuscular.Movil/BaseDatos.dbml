@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Class="BaseDatosDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="" Member="Perfil">
+    <Type Name="Perfil">
+      <Column Name="Nombre" Type="System.String" CanBeNull="false" />
+      <Column Name="Peso" Type="System.Int32" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Registros_Perfil" Member="Registros" ThisKey="Peso" OtherKey="Peso" Type="Registros" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="" Member="Registros">
+    <Type Name="Registros">
+      <Column Name="Nombre" Type="System.String" CanBeNull="false" />
+      <Column Name="Obeso" Type="System.String" CanBeNull="false" />
+      <Column Name="Delgado" Type="System.String" CanBeNull="false" />
+      <Column Name="Troso" Type="System.String" CanBeNull="false" />
+      <Column Name="Peso" Type="System.Int32" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Registros_Perfil" Member="Perfil" ThisKey="Peso" OtherKey="Peso" Type="Perfil" />
+    </Type>
+  </Table>
+</Database>
